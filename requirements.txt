@@ -1,0 +1,8 @@
+aiofiles
+aiohttp
+Flask
+pyrogram
+tgcrypto
+yt-dlp
+pyTelegramBotAPI
+requests
