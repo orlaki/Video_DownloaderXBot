@@ -47,7 +47,7 @@ BOT2_TOKEN = _get_env("BOT2_TOKEN", required=True)
 WEBHOOK_BASE = _get_env("WEBHOOK_BASE", required=True)
 PORT = _get_env("PORT", 8080, cast=int)
 
-REQUIRED_CHANNEL = _get_env("REQUIRED_CHANNEL", "@ourkama")
+REQUIRED_CHANNEL = _get_env("REQUIRED_CHANNEL", "")
 DOWNLOAD_PATH = _get_env("DOWNLOAD_PATH", "downloads")
 os.makedirs(DOWNLOAD_PATH, exist_ok=True)
 
